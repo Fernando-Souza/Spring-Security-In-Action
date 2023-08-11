@@ -1,13 +1,13 @@
-package com.fernando.ch02;
+package com.estudo.ch02ex05;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Ch02Application {
+public class ch02ex05Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Ch02Application.class, args);
+		SpringApplication.run(ch02ex05Application.class, args);
 	}
 
 }

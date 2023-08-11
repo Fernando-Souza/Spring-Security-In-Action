@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>com.estudo</groupId>
 		<artifactId>spring-security-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>		
 	</parent>
 	<groupId>com.estudo</groupId>
-	<artifactId>ch02</artifactId>
+	<artifactId>ch02ex05</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>ch02</name>
-	<description>Demo project for Spring Boot</description>	
-
+	<name>ch02ex05</name>
+	<description>Demo project for Spring Boot</description>
+	
 </project>

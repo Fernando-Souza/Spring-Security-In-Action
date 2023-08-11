@@ -8,7 +8,7 @@
 		<version>3.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.fernando</groupId>
+	<groupId>com.estudo</groupId>
 	<artifactId>spring-security-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -60,6 +60,7 @@
 	</build>
 	<modules>
 		<module>ch02</module>
+		<module>ch02ex05</module>
 	</modules>
 
 </project>
