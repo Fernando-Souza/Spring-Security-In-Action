@@ -22,19 +22,19 @@ public class ProjectConfig2 {
     }
 
     @Bean
-  SecurityFilterChain configure(HttpSecurity http) throws Exception {
+  SecurityFilterChain configure2(HttpSecurity http) throws Exception {
     http.httpBasic(Customizer.withDefaults());    
 
     http.authorizeHttpRequests(
         c -> c.anyRequest().authenticated()
     );
 
-    var user = User.withUsername("Maria")
+    var user2 = User.withUsername("Maria")
         .password("54321")
         .authorities("read")
         .build();
 
-    var userDetailsService = new InMemoryUserDetailsManager(user);
+    var userDetailsService = new InMemoryUserDetailsManager(user2);
 
     http.userDetailsService(userDetailsService);
 
@@ -44,7 +44,7 @@ public class ProjectConfig2 {
   }
 
   @Bean
-  PasswordEncoder passwordEncoder() {
+  PasswordEncoder passwordEncoder2() {
     return NoOpPasswordEncoder.getInstance();
   }
     

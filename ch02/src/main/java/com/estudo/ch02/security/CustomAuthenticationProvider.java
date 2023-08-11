@@ -20,7 +20,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
         if ("john".equals(username) && "12345".equals(password)) {
             return new UsernamePasswordAuthenticationToken(username, password, Arrays.asList());
         }
-        if ("maria".equals(username) && "54321".equals(password)) {
+        if ("Maria".equals(username) && "54321".equals(password)) {
             return new UsernamePasswordAuthenticationToken(username, password, Arrays.asList());
         } else {
             throw new AuthenticationCredentialsNotFoundException("Error!");
