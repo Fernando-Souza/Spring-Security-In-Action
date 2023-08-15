@@ -62,6 +62,7 @@
 		<module>ch02</module>
 		<module>ch02ex05</module>
 		<module>ch03</module>
+		<module>ch03ex03</module>
 	</modules>
 
 </project>
